@@ -17,6 +17,7 @@ search.clear()
 search.send_keys("hello")
 sleep(5)
 v=driver.find_element(By.ID,"SIvCob").text()
+
 print(v)
 # driver.find_element(By.NAME,"btnK").click()
 sleep(5)
